@@ -1,0 +1,150 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    .navbar-menu ul li a {
+        text-align: right;
+        padding: 0 !important;
+    }
+    .banner-icon {
+        text-align: center;
+    }
+    .banner-img {
+        text-align: center;
+    }
+    .banner-part {
+        padding-bottom: 40px;
+    }
+    .banner-content {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .features_part {
+        padding: 40px 0;
+        padding-bottom: 0px;
+    }
+    .feature_item {
+        padding: 30px 0;
+    }
+    .feature_item_logo {
+        text-align: center;
+    }
+    .feature_item {
+        text-align: center;
+    }
+    .contact_btn {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .contact_logo ul li img {
+        padding: 20px 0;
+        padding-right: 10px;
+
+    }
+    .contact_logo ul li:first-child img {
+        padding-left: 0px;
+    }
+    .contact_text {
+        padding-top: 20px;
+    }
+    .contact_info{
+    font-size: 16px;
+    color: white;
+}
+    .email_size{
+        font-size: 16px;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-menu ul li a {
+        text-align: right;
+        padding: 0 !important;
+    }
+    .banner-icon {
+        text-align: center;
+    }
+    .banner-img {
+        text-align: center;
+
+
+    }
+    .banner-part {
+        padding-bottom: 40px;
+    }
+    .banner-content {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .features_part {
+        padding: 40px 0;
+    }
+    .feature_item {
+        padding: 30px 0;
+    }
+    .feature_item_logo {
+        text-align: center;
+    }
+    .feature_item {
+        text-align: center;
+    }
+    .contact_btn {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .contact_logo ul li img {
+        padding: 30px 0;
+        padding-right: 10px;
+
+    }
+    .contact_logo ul li:first-child img {
+        padding-left: 5px;
+    }
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-menu ul li a {
+        padding: 30px 20px !important;
+
+    }
+    .banner-content {
+        padding: 20px 0px;
+    }
+    .banner-part {
+        padding-bottom: 0px;
+    }
+    .features_part {
+        padding: 40px 0;
+        padding-bottom: 0;
+    }
+    .feature_item {
+        padding: 30px 0;
+    }
+    .contact_text {
+        padding-top: 40px;
+    }
+    .contact_logo ul li img {
+        padding: 20px 0;
+        padding-right: 5px !important;
+    }
+    .contact_logo ul li:first-child img {
+        padding-left: 0px;
+    }
+}
+
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .contact_logo ul li img {
+        padding-right: 10px;
+    }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
